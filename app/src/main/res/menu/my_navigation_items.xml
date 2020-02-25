@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/archive"
+        android:title="@string/archive"
+        />
+        <!--android:icon="@drawable/phone"
+        android:title="@string/mobiles"-->
+    <!--<item
+        android:id="@+id/how_to"
+        android:title="@string/how_to"/>
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"/>
+        -->
+</menu>

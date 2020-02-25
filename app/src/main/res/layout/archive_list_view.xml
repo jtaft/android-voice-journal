@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_text_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDarkDarker">
+<com.jacktaft.selftherapy.RecordingMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/label"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:padding="10dip"
+   android:textSize="20sp"
+   android:textStyle="bold"
+    android:imeOptions="actionSend"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:background="#00000000"
+    android:textColor="#ffcccccc">
+</com.jacktaft.selftherapy.RecordingMenuItemView>
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#750000"
+        android:id="@+id/delete_view"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Delete"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
