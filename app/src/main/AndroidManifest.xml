@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:clearTaskOnLaunch="true"
+        android:screenOrientation="portrait"
         >
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,17 +25,23 @@
         </activity>
         <activity
             android:name=".RecordingActivity"
+            android:screenOrientation="portrait"
             />
         <activity android:name=".SaveRecordingActivity"
+            android:screenOrientation="portrait"
             />
         <activity
             android:name=".PlayRecordingActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
             />
         <activity
             android:name=".NavBarActivity"
+            android:screenOrientation="portrait"
             />
-        <activity android:name=".ArchiveActivity"
+        <activity
+            android:name=".ArchiveActivity"
+            android:screenOrientation="portrait"
             />
     </application>
 
